@@ -1,0 +1,71 @@
+h1 { text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;}
+
+h2 {text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+body { background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);}
+
+img { max-width: 100%;
+     width: 480px;
+     height: 120px;}
+
+  .container { background:#Ffff;
+                  padding: 39px;
+                  border-radius: 17px;
+                  margin: 19px auto;
+                  max-width: 450px;}
+
+     button   { display: block; 
+                background: #3e60c1;
+                color: whitesmoke;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid #3e60c1;
+                font-size: 20px;
+                transition: all 150ms ease-in-out;
+                border-radius: 9px; }  
+
+       p { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           font-size: 16px;
+           line-height: 1.6;}
+                
+                
+     button:hover { background: #B7bac3;
+                     cursor: pointer;}
+
+          .theme-button { font-size: 12px;
+                         padding: 6px 9px;
+                         color: whitesmoke;
+                        background: #3e60c1;}
+
+        .theme-button:hover { color:#F8F6E7;
+                             background: 283557; }
+
+       footer { text-align: center;
+                 margin: 0 auto;
+                 font-size: 18px;}
+
+.image-transform { border-radius: 8px;
+                 transition: all 150ms ease-in-out;  } 
+
+.image-transform:hover { transform: scale( 0.9);
+                       filter: contrast(80%);}  
+          
+.grid { display: grid;
+      grid-template-columns: 1fr  1fr  1fr 1fr;
+      grid-gap: 10px;
+       margin: 15px auto;}
+
+.grid img { width: 100%; 
+           transition: transform 150ms ease-in-out;
+           border-radius: 8px;}     
+                      
+.grid img :hover { transform: scale(1.2);}
+
+.dark { background: linear-gradient(109.6deg, rgb(2, 4, 7) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+        color:whitesmoke; }
+
+.dark .container { background:  rgb(11, 21, 26)}
+
+.dark a { color: violet;}
